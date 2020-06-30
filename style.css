@@ -1,0 +1,136 @@
+body{
+	background-color: #F5F5F5;
+	color: #15254C;
+	font-family: 'Courgette', cursive;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+body{
+	background-image: "./images/macarons-aesthetic.jpg"
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+h1, h2{
+	color: #E5AEB1;
+	font-family: 'Yeseva One', cursive;
+	font-weight: 600;
+	letter-spacing: 5px;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+
+.card-logo{
+	width: 500px;
+	height: 200px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+
+div{
+	background: white;
+	padding: 30px;
+	border-radius: 4px;
+	box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+	width: 1300px;
+	margin: 30px;
+	text-align: center;
+	border: 4px dashed #BCC67D
+}
+
+a{
+	text-decoration: none;
+	color: #a0c4ff;
+	font-family: 'Yeseva One', cursive;
+	font-weight: 600;
+}
+
+a:hover{
+	color: #15254C;
+}
+
+#profile{
+		width: 250px;
+		height: 250px;
+		border-radius: 50%;
+		box-shadow: 10px 10px 30px rgba(0,0,0,0.3);
+}
+
+.container1, .container2, .container3, .container4, .container5 {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+	.container1, .container2, .container3, .container4, .container5, {
+		width: 700px;
+	}
+}
+
+@media (max-width: 960px) {
+	.card-logo {
+		size: 100%;
+	}
+}
+
+@media (max-width: 720px) {
+	.container1, .container2, .container3, .container4, .container5 {
+		width: 500px;
+	}
+}
+
+@media (max-width: 720px) {
+	.card-logo {
+		size: 30%;
+	}
+}
+
+@media (max-width: 540px) {
+	.container1, .container2, .container3, .container4, .container5 {
+		width: 300px;
+	}
+}
+
+@media (max-width: 540px) {
+	.card-logo {
+		width: 300px;
+
+	}
+}
+
+.btn-blue {
+	background-color: #a0c4ff;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: #E5AEB1;
+	color: white;
+}
+
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 60px;
+}
+
+.list-inline i:hover {
+	color:#15254C;
+}
+
+#intro p {
+	margin-bottom: 40px;
+}
